@@ -5,3 +5,8 @@ Thumbs.db
 .env
 .env.*
 node_modules
+x-cookie.txt
+*cookies*.txt
+**/x-cookie.txt
+
+.vercel

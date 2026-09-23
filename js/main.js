@@ -6,7 +6,7 @@
   const links = document.getElementById("navLinks");
   const copyBtn = document.getElementById("copyCa");
   const copyState = document.getElementById("copyState");
-  const ca = "0x83a49b808f8d5e02cb2931cd2352988f498e5ba3";
+  const ca = "0xfa1824e750f9a5bc7d253342935471b8f2709d70";
 
   const stars = [];
   const motes = [];
