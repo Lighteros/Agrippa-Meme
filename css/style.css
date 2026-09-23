@@ -186,7 +186,18 @@ main,
   transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
 }
 
-.btn img { width: 16px; height: 16px; }
+.btn img { width: 18px; height: 18px; }
+
+.btn-gold img {
+  filter: brightness(0);
+}
+
+.btn-ghost img,
+.icon-btn img,
+.text-link img,
+.join-card img[src*="icons/"] {
+  filter: brightness(0) invert(96%) sepia(12%) saturate(420%) hue-rotate(8deg);
+}
 
 .btn-gold {
   background: linear-gradient(180deg, #e8d29a, #b8904a);
